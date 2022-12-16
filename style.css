@@ -1,60 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+html,
 body {
-  background-color: #000000;
-  font-family: "Rubik Gemstones", cursiva;
-  width: 80%;
-  height: 80%;
+  font-family: "Rubik Vinyl", cursive;
+  background: rgb(0, 0, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 255, 1) 0%,
+    rgba(255, 0, 0, 1) 35%,
+    rgba(0, 255, 0, 1) 100%
+  );
 }
-.imgPdr {
-  width: 20px;
-  list-style-type: none;
-}
-
-.rg {
-  padding: 1px; 
+canvas {
   display: inline-block;
+  margin-left: 35%;
+  margin-top: 0, 5%;
+  padding: 0%;
+  border: 12px solid #000000;
+  border-radius: 10px;
 }
-
-#rgb {
-  width: 50px;
-  
-}
-
-h1 {
-  line-height:30px;
-  word-spacing: 17px;
-}
-
-.homie{
-  padding-top: 10%;
-  border: 5px solid black;
-  background-image: url(https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 1510px;
-  height: 575px;
-  display: inline-block;
+h1,
+h3 {
   text-align: center;
-}
-
-
-
-.lols {
-  list-style-type: none;
-}
-
-.sexos {
-  text-align: center;
-  list-style-type: none;
-}
-
-.aTxt, a{
-  border: 1px solid lavenderblush;
-  border-radius: 6px;
-  background-color: lavenderblush;
-  list-style-type: none;
-}
-
-.about, .ponto{
-  list-style-type: none;
+  color: black;
 }
