@@ -6,21 +6,25 @@ body {
 .imgPdr {
   width: 20px;
   list-style-type: none;
+  margin: 0 auto;
 }
 
 .rg {
   padding: 1px; 
   display: inline-block;
+  margin: 0 auto;
 }
 
 #rgb {
   width: 50px;
+  margin: 0 auto;
   
 }
 
 h1 {
   line-height:30px;
   word-spacing: 17px;
+  margin: 0 auto;
 }
 
 .homie{
@@ -41,11 +45,13 @@ h1 {
 
 .lols {
   list-style-type: none;
+  margin: 0 auto;
 }
 
 .sexos {
   text-align: center;
   list-style-type: none;
+  margin: 0 auto;
 }
 
 .aTxt, a{
