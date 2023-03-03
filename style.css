@@ -2,8 +2,6 @@
 body {
   background-color: #000000;
   font-family: "Source Code Pro", cursiva;
-  width: 80%;
-  height: 80%;
 }
 .imgPdr {
   width: 20px;
@@ -35,6 +33,8 @@ h1 {
   height: 575px;
   display: inline-block;
   text-align: center;
+  margin: 0 auto;
+  
 }
 
 
